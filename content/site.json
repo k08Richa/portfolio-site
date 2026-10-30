@@ -1,0 +1,104 @@
+{
+  "hero": {
+    "greeting": "Hi, I'm",
+    "name": "Richa Chaurasia",
+    "line_start": "I",
+    "crossed_word": "guess,",
+    "correct_word": "check,",
+    "line_middle": "analyse and explain information:",
+    "line_highlight": "KYC, data and research.",
+    "resume_url": "https://drive.google.com/file/d/1NOfQBlbXNLDIOWHW5GA_HHDG7VwBrAfu/view?usp=sharing",
+    "note_title": "right now",
+    "note_rows": [
+      {
+        "label": "Looking for",
+        "text": "KYC / AML, research or analyst roles"
+      },
+      {
+        "label": "Working on",
+        "text": "social media for a small e-commerce business, part-time"
+      },
+      {
+        "label": "Next",
+        "text": "adding Pinterest to the shop's channels"
+      }
+    ],
+    "stats": [
+      {
+        "number": "6,500+",
+        "label": "data records checked and analysed"
+      },
+      {
+        "number": "2+",
+        "label": "years of part-time work alongside my degree"
+      },
+      {
+        "number": "157",
+        "label": "posts & reels made for a small business"
+      },
+      {
+        "number": "4",
+        "label": "internships across data, AI, writing and email"
+      }
+    ]
+  },
+  "about": {
+    "label": "a little about me",
+    "heading": "About me",
+    "paragraphs": [
+      {
+        "text": "A recruiter once asked me why I was applying for non-tech roles when my internships were in Data Analytics and AI & Machine Learning. I had to explain that I was actually a BBA graduate. It made me realise how far I had moved from my academic starting point without really noticing it."
+      },
+      {
+        "text": "My degree is in business, but my internships took me into data, AI, research, writing and digital operations. Across all of them, I found myself doing the same things: **finding information, checking it carefully, making sense of it, and explaining what I found.** That's the kind of work I enjoy."
+      },
+      {
+        "text": "I approach most things the same way: **find out what it is, understand how it works, then do it step by step.** I'm curious by habit. I always end up in the comment section, searching for whatever caught my eye, and that's how I found Power BI and SQL after working with Python in one internship. I prefer figuring things out one step at a time, but when something matters, **I give it everything**. I work best independently within a clear framework, so I know what I'm doing and what I'm accountable for."
+      }
+    ],
+    "cards": [
+      {
+        "title": "The Process",
+        "text": "I research before I act, work systematically, and document everything. I don't skip steps and I don't guess when I can verify.",
+        "tags": [
+          "Data Validation",
+          "Documentation",
+          "Research"
+        ]
+      },
+      {
+        "title": "The Detail",
+        "text": "I notice inconsistencies. Whether it's a dataset with placeholder dates disguised as values, or a brief that contradicts itself, I tend to stop and check it.",
+        "tags": [
+          "Verification",
+          "Accuracy",
+          "Quality Checking"
+        ]
+      },
+      {
+        "title": "The Range",
+        "text": "Business degree, data internships. I can speak both languages, so I can sit in either room and make sense of what's happening.",
+        "tags": [
+          "Excel · Power BI",
+          "SQL · Python",
+          "Operations"
+        ]
+      }
+    ],
+    "process_line": "Research → Verify → Analyse → Document → Communicate"
+  },
+  "contact": {
+    "label": "say hello",
+    "heading": "Get in touch",
+    "intro": "Open to entry-level roles as a **KYC / AML Analyst** (client onboarding), **Junior Research or Business Analyst**, and **Data or Operations Analyst**, in Lucknow, across India or remote.",
+    "email": "richachaurasia768@gmail.com",
+    "linkedin_url": "https://linkedin.com/in/richachaurasia",
+    "linkedin_text": "linkedin.com/in/richachaurasia",
+    "github_url": "https://github.com/k08Richa",
+    "github_text": "github.com/k08Richa"
+  },
+  "footer": {
+    "note": "Made with a lot of curiosity, patience, and more corrections than I'd like to admit.",
+    "updated": "Last updated October 2026"
+  }
+}

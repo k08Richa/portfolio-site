@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Richa Chaurasia · KYC, Research & Data</title>
+<meta name="description" content="Richa Chaurasia: BBA (International Business) graduate who checks, analyses and explains information across KYC, data and research.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Kalam:wght@400;700&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&family=Source+Sans+3:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/style.css">
+
+</head>
+<body>
+
+<nav>
+  <a href="#hero" class="nav-name">Richa Chaurasia</a>
+  <ul class="nav-links">
+    <li class="nav-extra"><a href="#about">About</a></li>
+    <li class="nav-extra2"><a href="#spot">Spot the error</a></li>
+    <li><a href="#works">Work</a></li>
+    <li><a href="#journey">Journey</a></li>
+    <li class="nav-extra2"><a href="#rabbit">Curiosity log</a></li>
+    <li><a id="navResume" href="#" target="_blank" rel="noopener">Resume&nbsp;↗</a></li>
+    <li><a href="#contact" class="nav-cta">Contact</a></li>
+  </ul>
+</nav>
+
+<div class="rail" role="navigation" aria-label="How I work">
+  <a href="#about"><i></i><span>Research</span></a>
+  <a href="#spot"><i></i><span>Verify</span></a>
+  <a href="#works"><i></i><span>Analyse</span></a>
+  <a href="#journey"><i></i><span>Document</span></a>
+  <a href="#contact"><i></i><span>Communicate</span></a>
+</div>
+
+<!-- HERO -->
+<div id="hero"></div>
+
+<!-- ABOUT-->
+<section id="about"></section>
+
+<!-- SPOT THE ERROR -->
+<section id="spot">
+  <p class="section-marker">a quick test</p>
+  <h2>Spot the error</h2>
+  <p class="about-body">A customer's form and their ID document should match. These two don't, in <strong>three places</strong>. Click anything that looks wrong.</p>
+  <div class="spot-game" id="spotGame">
+    <div class="doc">
+      <p class="doc-title">Account opening form</p>
+      <div class="doc-row"><span class="doc-k">Name</span><button class="doc-v" data-row="name">Asha Verma</button></div>
+      <div class="doc-row"><span class="doc-k">Date of birth</span><button class="doc-v" data-row="dob">14/03/1991</button></div>
+      <div class="doc-row"><span class="doc-k">Gender</span><button class="doc-v" data-row="ok">Female</button></div>
+      <div class="doc-row"><span class="doc-k">Address</span><button class="doc-v" data-row="ok">12, Gomti Nagar, Lucknow</button></div>
+      <div class="doc-row"><span class="doc-k">PIN code</span><button class="doc-v" data-row="pin">226010</button></div>
+    </div>
+    <div class="doc doc-id">
+      <p class="doc-title">Identity document</p>
+      <div class="doc-row"><span class="doc-k">Name</span><button class="doc-v" data-row="name">Asha Varma</button></div>
+      <div class="doc-row"><span class="doc-k">Date of birth</span><button class="doc-v" data-row="dob">01/01/1900</button></div>
+      <div class="doc-row"><span class="doc-k">Gender</span><button class="doc-v" data-row="ok">Female</button></div>
+      <div class="doc-row"><span class="doc-k">Address</span><button class="doc-v" data-row="ok">12, Gomti Nagar, Lucknow</button></div>
+      <div class="doc-row"><span class="doc-k">PIN code</span><button class="doc-v" data-row="pin">226016</button></div>
+    </div>
+  </div>
+  <div class="spot-status" aria-live="polite">
+    <p class="spot-count">Found <b id="spotN">0</b> of 3</p>
+    <p class="spot-msg" id="spotMsg">Take your time. Compare the two side by side.</p>
+    <div class="spot-actions"><button type="button" class="spot-btn" id="spotShow">Show answers</button><button type="button" class="spot-btn" id="spotReset" hidden>Try again</button></div>
+  </div>
+  <p class="spot-small">Made-up customer, for illustration only.</p>
+</section>
+
+<!-- WORKS -->
+<section id="works"></section>
+<div id="case-studies"></div>
+
+<!-- JOURNEY -->
+<section id="journey"></section>
+<section id="education"></section>
+
+<!-- RABBIT HOLES -->
+<section id="rabbit"></section>
+
+<!-- CONTACT -->
+<section id="contact"></section>
+<footer></footer>
+
+<script src="/assets/marked.min.js"></script>
+<script src="/assets/render.js"></script>
+</body>
+</html>

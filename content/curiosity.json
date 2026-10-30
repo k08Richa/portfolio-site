@@ -1,0 +1,31 @@
+{
+  "label": "curiosity log",
+  "heading": "Things I looked up",
+  "intro": "Small questions that caught my attention, what I found, and where I found it.",
+  "cards": [
+    {
+      "question": "How often does my bank have to re-check my KYC?",
+      "answer": "It depends on how risky the bank thinks the customer is: about every 2 years for high-risk customers, 8 years for medium-risk and 10 years for low-risk, counted from account opening or the last update.",
+      "source_label": "Source: Angel One, on RBI's KYC directions",
+      "source_url": "https://www.angelone.in/news/market-updates/how-often-do-you-need-to-update-kyc-rbi-clarifies"
+    },
+    {
+      "question": "What is \"smurfing\"?",
+      "answer": "Splitting illegal money into many small deposits, often through low-level helpers nicknamed \"smurfs\", so that no single deposit crosses a reporting limit. It's a form of structuring, one of the warning signs in my KYC piece.",
+      "source_label": "Source: ComplyAdvantage",
+      "source_url": "https://complyadvantage.com/insights/structuring-vs-smurfing/"
+    },
+    {
+      "question": "Is there a farming season between Rabi and Kharif?",
+      "answer": "Yes: Zaid, a short summer season from about March to June, grown mostly with irrigation. Think watermelon, muskmelon and cucumber. It was also the season that averaged losses in my farm data.",
+      "source_label": "Source: SGT University",
+      "source_url": "https://sgtuniversity.ac.in/agri/blogs/kharif-rabi-and-zaid-crops-in-india"
+    },
+    {
+      "question": "What is a \"money mule\"?",
+      "answer": "Someone who moves illegally acquired money on behalf of someone else, often by \"lending\" their bank account for a small commission. Some don't realise what they're part of.",
+      "source_label": "Source: FBI",
+      "source_url": "https://www.fbi.gov/how-we-can-help-you/scams-and-safety/common-frauds-and-scams/money-mules"
+    }
+  ]
+}

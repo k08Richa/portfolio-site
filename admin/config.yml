@@ -1,0 +1,298 @@
+# Settings for the editor at /admin. You don't need to change this file.
+backend:
+  name: github
+  repo: k08Richa/portfolio-site
+  branch: main
+  commit_messages:
+    update: "Update {{collection}} from the editor"
+
+site_url: https://richa-chaurasia.netlify.app
+display_url: https://richa-chaurasia.netlify.app
+media_folder: images
+public_folder: /images
+locale: en
+
+collections:
+  # ------------------------------------------------------------------
+  - name: page
+    label: "1. Top of page, About & Contact"
+    editor: {preview: false}
+    files:
+      - name: site
+        label: "Top of page, About & Contact"
+        file: content/site.json
+        fields:
+          - label: "Top of page (hero)"
+            name: hero
+            widget: object
+            collapsed: false
+            fields:
+              - {label: "Greeting above your name", name: greeting, widget: string, hint: "e.g. Hi, I'm"}
+              - {label: "Your name", name: name, widget: string}
+              - {label: "Line: first word", name: line_start, widget: string, hint: "Shown before the crossed-out word, e.g. I"}
+              - {label: "Line: word that gets crossed out", name: crossed_word, widget: string, hint: "e.g. guess,"}
+              - {label: "Line: handwritten correction", name: correct_word, widget: string, hint: "e.g. check,"}
+              - {label: "Line: middle part", name: line_middle, widget: string}
+              - {label: "Line: highlighted ending", name: line_highlight, widget: string, required: false}
+              - {label: "Resume link (Google Drive)", name: resume_url, widget: string, required: false, hint: "Leave empty to hide the Resume buttons"}
+              - {label: "Sticky note title", name: note_title, widget: string}
+              - label: "Sticky note lines"
+                name: note_rows
+                widget: list
+                summary: "{{fields.label}}: {{fields.text}}"
+                fields:
+                  - {label: "Small label", name: label, widget: string}
+                  - {label: "Text", name: text, widget: string}
+              - label: "Numbers row"
+                name: stats
+                widget: list
+                summary: "{{fields.number}}  {{fields.label}}"
+                hint: "Four works best. Numbers count up from zero automatically."
+                fields:
+                  - {label: "Number", name: number, widget: string, hint: "e.g. 6,500+  or  2+"}
+                  - {label: "Label", name: label, widget: string}
+          - label: "About me"
+            name: about
+            widget: object
+            fields:
+              - {label: "Small handwritten label", name: label, widget: string}
+              - {label: "Heading", name: heading, widget: string}
+              - label: "Paragraphs"
+                name: paragraphs
+                widget: list
+                summary: "{{fields.text}}"
+                hint: "Put **two stars** around words to give them the yellow highlight."
+                fields:
+                  - {label: "Paragraph", name: text, widget: text}
+              - label: "Three cards"
+                name: cards
+                widget: list
+                summary: "{{fields.title}}"
+                fields:
+                  - {label: "Title", name: title, widget: string}
+                  - {label: "Text", name: text, widget: text}
+                  - {label: "Tags", name: tags, widget: list, field: {label: Tag, name: tag, widget: string}}
+              - {label: "Process line under the cards", name: process_line, widget: string, required: false}
+          - label: "Contact"
+            name: contact
+            widget: object
+            fields:
+              - {label: "Small handwritten label", name: label, widget: string}
+              - {label: "Heading", name: heading, widget: string}
+              - {label: "Intro text", name: intro, widget: text, hint: "Put **two stars** around words to highlight them."}
+              - {label: "Email", name: email, widget: string}
+              - {label: "LinkedIn link", name: linkedin_url, widget: string, required: false}
+              - {label: "LinkedIn text shown", name: linkedin_text, widget: string, required: false}
+              - {label: "GitHub link", name: github_url, widget: string, required: false}
+              - {label: "GitHub text shown", name: github_text, widget: string, required: false}
+          - label: "Footer"
+            name: footer
+            widget: object
+            fields:
+              - {label: "Closing line", name: note, widget: string}
+              - {label: "Last updated line", name: updated, widget: string, required: false, hint: "e.g. Last updated November 2026"}
+
+  # ------------------------------------------------------------------
+  - name: work
+    label: "2. Projects"
+    editor: {preview: false}
+    files:
+      - name: projects
+        label: "Projects"
+        file: content/projects.json
+        fields:
+          - {label: "Small handwritten label", name: label, widget: string}
+          - {label: "Heading", name: heading, widget: string}
+          - {label: "Intro line", name: intro, widget: text}
+          - label: "Projects (drag to reorder)"
+            name: projects
+            widget: list
+            collapsed: true
+            summary: "{{fields.title}}"
+            label_singular: "project"
+            fields:
+              - {label: "Title (a question works best)", name: title, widget: string}
+              - {label: "Small label on the card", name: label, widget: string, hint: "e.g. Banking Analytics"}
+              - {label: "Subtitle on the card", name: subtitle, widget: string, required: false}
+              - label: "Which filter tabs it appears under"
+                name: filters
+                widget: select
+                multiple: true
+                options:
+                  - {label: "Analytics", value: analytics}
+                  - {label: "Business & Research", value: business}
+                  - {label: "Compliance", value: compliance}
+                  - {label: "Content & Social", value: content}
+                  - {label: "Writing", value: writing}
+              - {label: "Cover picture", name: cover, widget: image, choose_url: false}
+              - {label: "Text on the back of the card", name: summary, widget: text}
+              - {label: "Tags on the back of the card", name: card_tags, widget: list, field: {label: Tag, name: tag, widget: string}}
+              - {label: "Small label inside the case study", name: case_label, widget: string, required: false, hint: "Leave empty to reuse the card label"}
+              - label: "Case study sections (drag to reorder)"
+                name: blocks
+                widget: list
+                collapsed: true
+                summary: "{{fields.heading}}{{fields.text}}"
+                label_singular: "section"
+                types:
+                  - label: "Text section"
+                    name: text
+                    widget: object
+                    summary: "{{fields.heading}}"
+                    fields:
+                      - {label: "Heading", name: heading, widget: string, required: false, hint: "e.g. How this started, What I found"}
+                      - {label: "Text", name: body, widget: markdown, buttons: [bold, italic, link, bulleted-list, numbered-list], editor_components: [], modes: [rich_text, raw]}
+                  - label: "Side by side (two big numbers)"
+                    name: side_by_side
+                    widget: object
+                    summary: "{{fields.heading}}"
+                    fields:
+                      - {label: "Heading", name: heading, widget: string, required: false}
+                      - label: "Left box"
+                        name: left
+                        widget: object
+                        fields:
+                          - {label: "Small label", name: label, widget: string}
+                          - {label: "Big text", name: big, widget: string}
+                          - {label: "Caption", name: caption, widget: string}
+                      - label: "Right box"
+                        name: right
+                        widget: object
+                        fields:
+                          - {label: "Small label", name: label, widget: string}
+                          - {label: "Big text", name: big, widget: string}
+                          - {label: "Caption", name: caption, widget: string}
+                  - label: "Red handwritten note"
+                    name: margin_note
+                    widget: object
+                    summary: "{{fields.text}}"
+                    fields:
+                      - {label: "Note", name: text, widget: string}
+                  - label: "Numbered steps in a row"
+                    name: steps
+                    widget: object
+                    summary: "{{fields.heading}}"
+                    fields:
+                      - {label: "Heading", name: heading, widget: string, required: false}
+                      - {label: "Steps", name: steps, widget: list, field: {label: Step, name: step, widget: string}}
+                  - label: "Questions that open and close"
+                    name: questions
+                    widget: object
+                    summary: "{{fields.heading}}"
+                    fields:
+                      - {label: "Heading", name: heading, widget: string, required: false}
+                      - label: "Questions"
+                        name: items
+                        widget: list
+                        summary: "{{fields.question}}"
+                        fields:
+                          - {label: "Question", name: question, widget: string}
+                          - {label: "Answer", name: answer, widget: markdown, buttons: [bold, italic, link, bulleted-list, numbered-list], editor_components: [], modes: [rich_text, raw]}
+                          - {label: "Show the list as ticks", name: checklist, widget: boolean, default: false}
+                  - label: "Table"
+                    name: table
+                    widget: object
+                    summary: "{{fields.heading}}"
+                    fields:
+                      - {label: "Heading", name: heading, widget: string, required: false}
+                      - {label: "Table", name: table, widget: text, hint: "One row per line, columns separated by | . Keep the second line as |---|---| ."}
+              - {label: "Under the hood (bullet list)", name: under_the_hood, widget: markdown, required: false, buttons: [bold, italic, link, bulleted-list], editor_components: [], modes: [rich_text, raw]}
+              - {label: "Tools tags", name: tools, widget: list, required: false, field: {label: Tool, name: tool, widget: string}}
+              - {label: "Button link (e.g. GitHub)", name: link, widget: string, required: false, hint: "Leave empty for no button"}
+              - {label: "Button text", name: link_label, widget: string, required: false, default: "View on GitHub"}
+              - label: "Pictures beside the case study"
+                name: images
+                widget: list
+                required: false
+                summary: "{{fields.caption}}"
+                fields:
+                  - {label: "Picture", name: image, widget: image, choose_url: false}
+                  - {label: "Caption", name: caption, widget: string, required: false}
+                  - {label: "Description for screen readers", name: alt, widget: string, required: false, hint: "What the picture shows, in a few words"}
+              - {label: "Long text, narrow pictures", name: text_heavy, widget: boolean, default: false, hint: "Turn on for long write-ups like the KYC one"}
+
+  # ------------------------------------------------------------------
+  - name: route
+    label: "3. Journey, Education & Certificates"
+    editor: {preview: false}
+    files:
+      - name: journey
+        label: "Journey, Education & Certificates"
+        file: content/journey.json
+        fields:
+          - {label: "Journey: small handwritten label", name: label, widget: string}
+          - {label: "Journey: heading", name: heading, widget: string}
+          - label: "Journey entries (newest first within each group)"
+            name: entries
+            widget: list
+            collapsed: true
+            summary: "{{fields.org}} · {{fields.role}}"
+            label_singular: "journey entry"
+            fields:
+              - label: "Group"
+                name: group
+                widget: select
+                options:
+                  - {label: "Work", value: work}
+                  - {label: "Training internship", value: training}
+                  - {label: "Job simulation", value: simulation}
+              - {label: "Dates", name: dates, widget: string, required: false, hint: "e.g. Sep – Nov 2025"}
+              - {label: "Role", name: role, widget: string, required: false}
+              - {label: "Organisation", name: org, widget: string}
+              - {label: "Organisation detail (grey text)", name: org_detail, widget: string, required: false}
+              - {label: "Extra line (e.g. Part-time · Hybrid)", name: meta, widget: string, required: false}
+              - {label: "What you did", name: text, widget: text, required: false}
+              - label: "Several roles at the same place (optional)"
+                name: positions
+                widget: list
+                required: false
+                hint: "Use this only for places where you moved up, like OtakusOutlet. The newest role goes first."
+                summary: "{{fields.role}}"
+                fields:
+                  - {label: "Role", name: role, widget: string}
+                  - {label: "Dates", name: dates, widget: string}
+                  - {label: "What you did", name: text, widget: text}
+                  - {label: "This is my current role", name: current, widget: boolean, default: false}
+              - {label: "Highlight chips (optional)", name: highlights, widget: list, required: false, field: {label: Highlight, name: highlight, widget: string}}
+          - {label: "Education: small handwritten label", name: education_label, widget: string}
+          - {label: "Education: heading", name: education_heading, widget: string}
+          - label: "Education path (oldest first)"
+            name: education
+            widget: list
+            summary: "{{fields.title}}"
+            fields:
+              - {label: "Dates", name: dates, widget: string}
+              - {label: "Title", name: title, widget: string}
+              - {label: "School / detail", name: detail, widget: string}
+              - {label: "Extra text", name: text, widget: text, required: false}
+              - {label: "This is an upcoming step (hollow dot)", name: upcoming, widget: boolean, default: false}
+          - {label: "Certificates title", name: certificates_title, widget: string}
+          - label: "Certificate stamps"
+            name: certificates
+            widget: list
+            summary: "{{fields.name}}"
+            fields:
+              - {label: "Certificate name", name: name, widget: string}
+              - {label: "Issued by", name: issuer, widget: string}
+
+  # ------------------------------------------------------------------
+  - name: curiosity
+    label: "4. Curiosity log"
+    editor: {preview: false}
+    files:
+      - name: curiosity
+        label: "Curiosity log"
+        file: content/curiosity.json
+        fields:
+          - {label: "Small handwritten label", name: label, widget: string}
+          - {label: "Heading", name: heading, widget: string}
+          - {label: "Intro line", name: intro, widget: text}
+          - label: "Cards"
+            name: cards
+            widget: list
+            summary: "{{fields.question}}"
+            fields:
+              - {label: "Question", name: question, widget: string}
+              - {label: "What I found", name: answer, widget: text}
+              - {label: "Source name", name: source_label, widget: string, required: false, hint: "e.g. Source: RBI"}
+              - {label: "Source link", name: source_url, widget: string, required: false}

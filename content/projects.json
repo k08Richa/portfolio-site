@@ -1,0 +1,506 @@
+{
+  "label": "things I've worked on",
+  "heading": "Selected work",
+  "intro": "Each project starts with a plain-language story. Open it for how it began, what was hard, what I found, and the technical detail.",
+  "projects": [
+    {
+      "title": "Why does my bank keep asking? KYC and AML in plain language",
+      "label": "Banking & Compliance",
+      "subtitle": "A practical introduction to KYC, CDD and AML",
+      "filters": [
+        "compliance",
+        "business"
+      ],
+      "cover": "/images/kyc-cover.jpg",
+      "summary": "Everyday banking questions, answered in simple words.",
+      "card_tags": [
+        "KYC",
+        "AML",
+        "CDD",
+        "Compliance"
+      ],
+      "case_label": "Banking & Compliance",
+      "text_heavy": true,
+      "under_the_hood": "- Terms: KYC, CDD, AML, PMLA 2002, RBI KYC Master Direction, FIU-IND, CKYC.\n- Certificate: Foundation in AML and KYC (KYC Lookup).\n- Image credits: Zulfugar Karimov and RDNE Stock project (Pexels); Yugu Design and Photography Mahi (Unsplash).",
+      "tools": [
+        "KYC",
+        "AML",
+        "CDD",
+        "Compliance"
+      ],
+      "blocks": [
+        {
+          "type": "text",
+          "heading": "How this started",
+          "body": "I kept hearing the same phrase, \"complete your KYC.\" The bank said it. The gas agency said it. Each time I did it without really knowing what it was or why it mattered. After a Foundation in AML and KYC course, I wanted to explain it the way I wish someone had explained it to me."
+        },
+        {
+          "type": "text",
+          "heading": "The question",
+          "body": "What exactly are KYC, CDD and AML, and what do banks do with them behind the counter? How is a customer identified, how is information verified, what happens when something does not match, and how does KYC fit into the wider fight against money laundering?"
+        },
+        {
+          "type": "table",
+          "heading": "KYC, CDD and AML: what is the difference?",
+          "table": "|  | KYC | CDD | AML |\n|---|---|---|---|\n| What it is | Know Your Customer: checking who you are and where you live | Customer Due Diligence: understanding what kind of customer you are and how risky the relationship is | Anti-Money Laundering: rules and checks that stop crime money looking honest |\n| The question | Who are you? | What kind of customer are you? | Is this money behaving normally? |\n| When | At the start, refreshed over time | At the start, deeper for higher risk | All the time |\n| Looks at | Documents, address and photo | Work, source of money, ownership, risk level | Transactions and patterns |\n| Example | Opening a savings account, buying a SIM card, getting a gas connection | Tracing the real owners of a company before opening its account | Flagging many deposits just under a limit |"
+        },
+        {
+          "type": "text",
+          "heading": "",
+          "body": "Think of a building: KYC checks your ID at the gate, CDD asks why you are visiting and how much access you need, and AML is the CCTV watching afterwards. CDD gets deeper as risk rises, with enhanced checks for higher-risk customers such as politically exposed persons (people in senior public roles). Laundering itself usually moves in three stages: placement, layering and integration."
+        },
+        {
+          "type": "margin_note",
+          "text": "KYC = the gate  ·  CDD = the purpose  ·  AML = the CCTV"
+        },
+        {
+          "type": "steps",
+          "heading": "The KYC lifecycle",
+          "steps": [
+            "Identify",
+            "Collect documents",
+            "Verify",
+            "Due diligence",
+            "Ongoing review"
+          ]
+        },
+        {
+          "type": "questions",
+          "heading": "Four questions I wanted answered",
+          "items": [
+            {
+              "question": "Question 1: How does a bank decide you are who you say you are?",
+              "answer": "- **Documents:** ID proof, address proof and a photo.\n- **Matching:** details are checked against records, through Aadhaar-based verification or Video KYC, where an official checks you live on camera.\n- **Risk rating:** customers are placed into risk levels, and higher-risk ones get more checks.",
+              "checklist": false
+            },
+            {
+              "question": "Question 2: Why does my bank keep asking for the same documents?",
+              "answer": "- KYC is not one-time. Banks must keep records current, re-verifying at intervals that depend on your risk level.\n- Your name, address or phone number may have changed, or a document may have expired.\n- Each institution has its own legal duty, so your bank, mutual fund and gas agency cannot rely on each other's checks.\n\nIt is annoying, but it makes it harder for someone to misuse your identity.",
+              "checklist": false
+            },
+            {
+              "question": "Question 3: What happens when a large cash deposit walks into a bank?",
+              "answer": "Take \"Asha\" (a made-up customer), a teacher who deposits a large sum in cash. That is not a crime, but it does not match her usual pattern, so the bank may ask where the money came from, such as a land sale or a family gift. Cash transactions above a set limit are reported to the Financial Intelligence Unit (FIU-IND) as routine, and anything suspicious, at any amount, is reported as a suspicious transaction, which the customer is not told about.\n\nWarning signs: deposits split to stay under a limit, many unrelated people paying into one account, a suddenly busy account, or lending your account for a commission (a \"money mule\").",
+              "checklist": false
+            },
+            {
+              "question": "Question 4: What happens when something doesn't match?",
+              "answer": "A mismatch is not automatically fraud. It means the information must be reviewed under the organisation's procedure. Scenario: a customer's name is spelt slightly differently across documents, and the address on the form does not match the supporting document.\n\n**Identify** the discrepancies → **Review** the documents → **Clarify** with the customer → **Re-check** the updated information → **Escalate** if unresolved → **Document** what was done.",
+              "checklist": false
+            },
+            {
+              "question": "Bonus: when the customer is a company",
+              "answer": "The review traces who owns and controls the company to find the **beneficial owner**, the real person who ultimately owns or controls it: company → ownership and control → owners and controllers → verification and risk review.",
+              "checklist": false
+            },
+            {
+              "question": "My KYC review checklist",
+              "answer": "- Customer information is complete\n- Required documents are available\n- Information is consistent across documents\n- Relevant information can be verified\n- Risk indicators are considered\n- Discrepancies are reviewed, not assumed\n- Actions and outcomes are documented\n- Cases needing review are escalated",
+              "checklist": true
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "heading": "What I learned",
+          "body": "KYC is not simply \"checking an ID.\" It is a structured process of identification, verification, due diligence, documentation and ongoing review. It also connected something I had already done elsewhere, checking information carefully and documenting what I found, with a business process where that discipline matters a great deal."
+        },
+        {
+          "type": "text",
+          "heading": "What I'm still unsure about",
+          "body": "Rules and limits change and differ between institutions. I hold a foundation certificate and I am not a compliance officer, so this explains the ideas and is not advice."
+        }
+      ],
+      "images": [
+        {
+          "image": "/images/kyc-1.jpg",
+          "alt": "Illustration of a folder holding an ID card and photos",
+          "caption": "Documents and a photo: where every KYC check starts (illustration: Yugu Design, Unsplash)"
+        },
+        {
+          "image": "/images/kyc-2.jpg",
+          "alt": "Hands holding a bank statement over a desk of financial papers",
+          "caption": "Statements and account activity are what AML keeps an eye on (photo: RDNE Stock project, Pexels)"
+        },
+        {
+          "image": "/images/kyc-3.png",
+          "alt": "The three stages of money laundering",
+          "caption": "The three stages of money laundering"
+        },
+        {
+          "image": "/images/kyc-4.jpg",
+          "alt": "Illustration of a checklist and a desk with a laptop",
+          "caption": "A checklist keeps every review consistent (illustration: Photography Mahi, Unsplash)"
+        }
+      ],
+      "link": "",
+      "link_label": "View on GitHub"
+    },
+    {
+      "title": "Where does a bank's money actually move?",
+      "label": "Banking Analytics",
+      "subtitle": "Excel, SQL and Power BI on 2,000 bank transactions",
+      "filters": [
+        "analytics"
+      ],
+      "cover": "/images/bank-cover.jpg",
+      "summary": "Deposits drove 53% of all transaction value across 2,000 transactions.",
+      "card_tags": [
+        "Excel",
+        "SQL",
+        "Power BI"
+      ],
+      "case_label": "Banking Analytics",
+      "text_heavy": false,
+      "under_the_hood": "- Excel for exploring and validating the data.\n- 7 SQL queries run in SQLite (SELECT, GROUP BY, COUNT, AVG, SUM) for customer segments, spend patterns, loan risk and monthly trends.\n- Power BI dashboard with 8 charts and 2 slicers.",
+      "tools": [
+        "Excel",
+        "SQL",
+        "Power BI"
+      ],
+      "link": "https://github.com/k08Richa/Banking-Customer-Analytics-Dashboard",
+      "link_label": "View on GitHub",
+      "blocks": [
+        {
+          "type": "text",
+          "heading": "How this started",
+          "body": "After my AI & ML internship, one of the toughest things I had done, I wanted to learn more tools like it. I kept hearing about Power BI and SQL, so I taught myself the basics on YouTube and tried building something real."
+        },
+        {
+          "type": "text",
+          "heading": "The question",
+          "body": "Banks record thousands of transactions a day. If you tidy that raw record, what does it say about how customers use their money?"
+        },
+        {
+          "type": "text",
+          "heading": "What made it hard",
+          "body": "Everything was new. I got stuck on how to use KPIs and slicers and what to build with them, made plenty of mistakes, and corrected the dashboard many times."
+        },
+        {
+          "type": "text",
+          "heading": "How I tackled it",
+          "body": "1. Cleaned and checked the data in Excel so I could trust the numbers.\n2. Wrote 7 SQL queries, each answering one question, such as who spends most and where.\n3. Built the Power BI dashboard with 8 charts and 2 slicers so a reader can filter it themselves.\n4. Fixed my mistakes and added colour until it was easy to read."
+        },
+        {
+          "type": "side_by_side",
+          "heading": "Side by side",
+          "left": {
+            "label": "Deposits",
+            "big": "53%",
+            "caption": "of total transaction value"
+          },
+          "right": {
+            "label": "Everything else",
+            "big": "47%",
+            "caption": "of total transaction value"
+          }
+        },
+        {
+          "type": "margin_note",
+          "text": "↑ more than half of all the money moved was deposits"
+        },
+        {
+          "type": "text",
+          "heading": "What I found",
+          "body": "- More than half of all money moving (53%) was deposits.\n- Chennai and Lucknow had the highest transaction value.\n- Customers with car loans kept the highest average balances.\n- Savings accounts made up about 60% of customers."
+        },
+        {
+          "type": "text",
+          "heading": "What it gave me",
+          "body": "It is a beginner-level project, but it showed me my own effort, and it proved I could learn new tools on my own. That confidence mattered most. I would love to build a better version someday."
+        },
+        {
+          "type": "text",
+          "heading": "What I'm still unsure about",
+          "body": "This is one dataset of 2,000 transactions, so the patterns may not hold for a much larger bank."
+        }
+      ],
+      "images": [
+        {
+          "image": "/images/bank-1.png",
+          "alt": "Power BI banking customer analytics dashboard",
+          "caption": "The final Power BI dashboard"
+        },
+        {
+          "image": "/images/bank-2.png",
+          "alt": "Customers sheet in Excel",
+          "caption": "The customers sheet"
+        },
+        {
+          "image": "/images/bank-3.png",
+          "alt": "Transactions sheet in Excel",
+          "caption": "The transactions sheet"
+        }
+      ]
+    },
+    {
+      "title": "Can a small gift shop grow on Instagram and YouTube?",
+      "label": "Social Media · Part-time work",
+      "subtitle": "Filming, editing and posting for OtakusOutlet since 2024",
+      "filters": [
+        "content",
+        "business"
+      ],
+      "cover": "/images/shop-cover.jpg",
+      "summary": "157 posts and reels so far. Our best reel reached 12K views; two YouTube Shorts reached about 10K and 11K.",
+      "card_tags": [
+        "Edits",
+        "Canva",
+        "Instagram Insights",
+        "YouTube Studio"
+      ],
+      "case_label": "Social media · OtakusOutlet",
+      "text_heavy": false,
+      "under_the_hood": "- 157 posts and reels so far across the shop's channels.\n- Tools: Edits, CapCut (earlier), Canva, Instagram Insights, YouTube Studio, Flipkart seller listings.",
+      "tools": [
+        "Video editing",
+        "Captions",
+        "Analytics",
+        "Customer replies"
+      ],
+      "blocks": [
+        {
+          "type": "text",
+          "heading": "How this started",
+          "body": "My elder sister opened OtakusOutlet, a customised gift and print shop in Lucknow, in 2024: mugs, photo frames, cushion covers, T-shirts, keychains, fridge magnets and bottles, printed to order. I started by helping with posting and captions. Over time I took over the shop's Instagram and YouTube: filming, editing, writing, posting and replying to people."
+        },
+        {
+          "type": "text",
+          "heading": "What I do",
+          "body": "- Brainstorm post and video ideas. Sometimes I follow my sister's brief; sometimes I decide what to post.\n- Film product videos and edit reels and Shorts, mostly in Edits (earlier CapCut), with Canva for posts.\n- Write captions, titles and keywords, and look up what people search for.\n- Reply to comments and messages from customers.\n- Check Instagram Insights and YouTube Studio to see what worked.\n- Occasionally list products on Flipkart."
+        },
+        {
+          "type": "side_by_side",
+          "heading": "Side by side",
+          "left": {
+            "label": "Instagram",
+            "big": "12K",
+            "caption": "views on our best reel; most reels get 500 to 2K"
+          },
+          "right": {
+            "label": "YouTube Shorts",
+            "big": "11K",
+            "caption": "views on our best Short (another reached about 10K); most cross 1K"
+          }
+        },
+        {
+          "type": "margin_note",
+          "text": "same shop, two platforms, very different reach"
+        },
+        {
+          "type": "text",
+          "heading": "What made it hard",
+          "body": "Posting consistently. I fit this around job applications and learning, so I haven't managed to post every day. The algorithm is also uneven: some accounts get reach easily and ours isn't one of them, so I keep trying different formats and timings. Something that works on YouTube doesn't always work on Instagram."
+        },
+        {
+          "type": "text",
+          "heading": "What I found",
+          "body": "- Our YouTube Shorts usually reach more people than our Instagram reels: most Shorts cross 1K views, while most reels get 500 to 2K.\n- What works on one platform isn't guaranteed to work on the other, so each one needs its own trial and error.\n- Posting regularly matters, and it's the part I'm still working on."
+        },
+        {
+          "type": "text",
+          "heading": "What I'm still unsure about",
+          "body": "Why one reel takes off and a similar one doesn't. I can see patterns in the numbers, but not proof. That's what I'm trying to understand better, including on Pinterest next."
+        }
+      ],
+      "images": [],
+      "link": "",
+      "link_label": "View on GitHub"
+    },
+    {
+      "title": "Do brands that listen keep their customers?",
+      "label": "Research Report · Academic",
+      "subtitle": "AI sentiment analysis, engagement and brand loyalty",
+      "filters": [
+        "business"
+      ],
+      "cover": "/images/research-cover.jpg",
+      "summary": "A supervised report on whether AI that reads customer feedback helps build loyalty.",
+      "card_tags": [
+        "Secondary research",
+        "Survey",
+        "Excel",
+        "Report Writing"
+      ],
+      "case_label": "Research report",
+      "text_heavy": false,
+      "under_the_hood": "- Secondary research plus a Google Forms survey with Likert-scale questions.\n- Responses analysed with Excel and AI tools; basic percentages only, no statistical tests.\n- What I learned: a report is only as strong as its sources, and small samples need careful wording.",
+      "tools": [
+        "Secondary research",
+        "Google Forms",
+        "Excel"
+      ],
+      "blocks": [
+        {
+          "type": "text",
+          "heading": "How this started",
+          "body": "I found this topic through another academic project. I came across a research paper on Google Scholar, read it, and found it so interesting that I proposed it to my mentor, and she approved it. It taught me things I had heard of but never paid attention to until I started learning them."
+        },
+        {
+          "type": "text",
+          "heading": "The question",
+          "body": "Brands now use AI to read reviews and comments. Does responding to what customers say make them more loyal?"
+        },
+        {
+          "type": "text",
+          "heading": "What made it hard",
+          "body": "A tight deadline left little time to collect real opinions, and I was studying for mid-semester exams while also getting feedback and making changes."
+        },
+        {
+          "type": "text",
+          "heading": "How I tackled it",
+          "body": "1. Built the report mainly around one key research paper.\n2. Added journals, blogs and company case studies from the internet.\n3. Ran a short survey of simple questions with friends, classmates and working professionals (family members and their colleagues).\n4. Compared what the research said with what my small survey showed, then wrote it up with my mentor's feedback."
+        },
+        {
+          "type": "side_by_side",
+          "heading": "Side by side",
+          "left": {
+            "label": "Published research",
+            "big": "Positive",
+            "caption": "Studies I read link responsive, personalised brands to more engagement"
+          },
+          "right": {
+            "label": "My survey",
+            "big": "Mostly agreed",
+            "caption": "From people I know, so small and friendly"
+          }
+        },
+        {
+          "type": "text",
+          "heading": "What I found",
+          "body": "- Most survey respondents said brands that respond to feedback earn more of their trust.\n- The published research I read points the same way.\n- Personalised and quick replies were the features people mentioned most."
+        },
+        {
+          "type": "text",
+          "heading": "What it gave me",
+          "body": "It taught me to read research, build an argument from sources, and be honest about what a small sample can and cannot show."
+        },
+        {
+          "type": "text",
+          "heading": "What I'm still unsure about",
+          "body": "The survey was small and came mostly from people I know, who may answer more kindly than strangers. It asked about AI in general, not sentiment analysis specifically, so it shows opinions, not proof."
+        },
+        {
+          "type": "margin_note",
+          "text": "small sample, mostly people I know: read with care"
+        }
+      ],
+      "images": [
+        {
+          "image": "/images/research-1.jpg",
+          "alt": "Hardcover of the minor project report",
+          "caption": "The hardcover report"
+        },
+        {
+          "image": "/images/research-2.png",
+          "alt": "Survey questions on awareness of AI",
+          "caption": "Survey questions: awareness (no responses shown)"
+        },
+        {
+          "image": "/images/research-3.png",
+          "alt": "Survey questions on brand loyalty",
+          "caption": "Survey questions: brand loyalty (no responses shown)"
+        }
+      ],
+      "link": "",
+      "link_label": "View on GitHub"
+    },
+    {
+      "title": "Which farming season pays best, and which wastes water?",
+      "label": "Data Analytics · Internship project",
+      "subtitle": "Yield, profit and water use across Kharif, Rabi and Zaid",
+      "filters": [
+        "analytics"
+      ],
+      "cover": "/images/farm-cover.jpg",
+      "summary": "Kharif was the most productive and profitable season across 4,000 farm records.",
+      "card_tags": [
+        "Python",
+        "Excel",
+        "Data Analysis"
+      ],
+      "case_label": "Data analytics",
+      "text_heavy": false,
+      "under_the_hood": "- Python (pandas, numpy, matplotlib, seaborn) in Google Colab; Excel for first exploration.\n- 4,000 records, 28 variables; yield, profit, water-efficiency and disease-risk comparisons by season, crop and irrigation method.\n- In the same internship I also completed a guided analysis of 299 CarDekho used-car listings, comparing resale value by fuel type, gearbox and age.",
+      "tools": [
+        "Python",
+        "pandas",
+        "matplotlib"
+      ],
+      "link": "https://github.com/k08Richa/Seasonal-Agriculture-Analysis",
+      "link_label": "View on GitHub",
+      "blocks": [
+        {
+          "type": "text",
+          "heading": "How this started",
+          "body": "This was the major project of my VOIS for Tech Data Analytics internship, and the one I submitted with a presentation. The brief was to find patterns in how Indian farms perform across seasons."
+        },
+        {
+          "type": "text",
+          "heading": "The question",
+          "body": "Indian farming runs in three seasons: Kharif, Rabi and Zaid. Does the season change how much a farm grows, earns and spends on water?"
+        },
+        {
+          "type": "text",
+          "heading": "How I tackled it",
+          "body": "1. Explored the 4,000-record dataset in Excel first, then moved to Python.\n2. Compared Kharif, Rabi and Zaid on yield, profit, water use and disease risk.\n3. Looked at which crops and irrigation methods drove the differences.\n4. Put the findings into a dashboard and presented them."
+        },
+        {
+          "type": "side_by_side",
+          "heading": "Side by side",
+          "left": {
+            "label": "Kharif",
+            "big": "Profit",
+            "caption": "the most productive and profitable season"
+          },
+          "right": {
+            "label": "Zaid (summer)",
+            "big": "Loss",
+            "caption": "averaged losses"
+          }
+        },
+        {
+          "type": "text",
+          "heading": "What I found",
+          "body": "- Kharif was the most productive and profitable season; Zaid (summer) averaged losses.\n- Sugarcane out-yielded every other crop by a wide margin.\n- Sugarcane and chilli earned the highest average profit, while wheat, rice and maize averaged losses.\n- Rain-fed farming used water most efficiently; drip was best among managed irrigation.\n- Disease and pest risk clustered between about 30% and 65% on most farms."
+        },
+        {
+          "type": "text",
+          "heading": "What it gave me",
+          "body": "It made me comfortable with Python and its libraries, and I can now do a few analyses like this on my own."
+        },
+        {
+          "type": "text",
+          "heading": "What I'm still unsure about",
+          "body": "These are averages and patterns, not proof of cause. Weather, soil and crop choice are tangled together."
+        },
+        {
+          "type": "margin_note",
+          "text": "averages, not proof!"
+        }
+      ],
+      "images": [
+        {
+          "image": "/images/farm-1.png",
+          "alt": "Bar chart of average profit by season",
+          "caption": "Average profit by season"
+        },
+        {
+          "image": "/images/farm-2.png",
+          "alt": "Bar chart of average profit by crop",
+          "caption": "Average profit by crop"
+        },
+        {
+          "image": "/images/farm-3.png",
+          "alt": "Bar chart of water efficiency by irrigation method",
+          "caption": "Water efficiency by irrigation method"
+        },
+        {
+          "image": "/images/farm-4.png",
+          "alt": "Seasonal agriculture data in Excel",
+          "caption": "A look at the raw farm data"
+        }
+      ]
+    }
+  ]
+}

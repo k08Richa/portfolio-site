@@ -1,0 +1,144 @@
+{
+  "label": "the route so far",
+  "heading": "Where I have been",
+  "entries": [
+    {
+      "group": "work",
+      "dates": "",
+      "role": "",
+      "org": "OtakusOutlet",
+      "org_detail": "customised gift & print shop, Lucknow",
+      "meta": "Part-time · Hybrid · Family business",
+      "text": "",
+      "positions": [
+        {
+          "role": "Social Media & Content Associate",
+          "dates": "Jan 2025 – Present",
+          "text": "Film, edit and post reels and Shorts, write captions and titles, research keywords, reply to customers and track results in Instagram Insights and YouTube Studio.",
+          "current": true
+        },
+        {
+          "role": "Content & Posting Assistant",
+          "dates": "Jan 2024 – Dec 2024",
+          "text": "Posted content, wrote captions and answered customer queries on Instagram and YouTube.",
+          "current": false
+        }
+      ],
+      "highlights": [
+        "157 posts & reels",
+        "12K best reel",
+        "~10K & 11K on two Shorts"
+      ]
+    },
+    {
+      "group": "work",
+      "dates": "Sep – Nov 2025",
+      "role": "Email Marketing Intern",
+      "org": "GEMA Education Technology",
+      "org_detail": "",
+      "meta": "",
+      "text": "Kept recipient records organised and sent about 50 targeted emails a day with YAMM and Mail Merge, meeting daily targets for two months.",
+      "positions": [],
+      "highlights": []
+    },
+    {
+      "group": "work",
+      "dates": "Aug – Sep 2025",
+      "role": "Content Writer",
+      "org": "InAmigos Foundation",
+      "org_detail": "",
+      "meta": "",
+      "text": "Researched and wrote articles, blog posts and social media content on women empowerment, CSR and social development for Project Udaan.",
+      "positions": [],
+      "highlights": []
+    },
+    {
+      "group": "training",
+      "dates": "Aug – Sep 2026",
+      "role": "Data Analytics Intern",
+      "org": "VOIS for Tech Program · Edunet Foundation",
+      "org_detail": "",
+      "meta": "",
+      "text": "Guided analysis of real-world datasets in Python. My major project compared yield, profit and water efficiency across 4,000 farm records.",
+      "positions": [],
+      "highlights": []
+    },
+    {
+      "group": "training",
+      "dates": "Jun – Jul 2025",
+      "role": "AI & Machine Learning Intern",
+      "org": "Edunet Foundation · IBM SkillsBuild & AICTE",
+      "org_detail": "",
+      "meta": "",
+      "text": "Checked a dataset of around 500 records for errors and inconsistencies, then built an Employee Salary Prediction model in Python. Earned the IBM AI Fundamentals badge.",
+      "positions": [],
+      "highlights": []
+    },
+    {
+      "group": "simulation",
+      "dates": "Aug 2026",
+      "role": "Data Analytics Job Simulation",
+      "org": "Deloitte · Forage",
+      "org_detail": "",
+      "meta": "",
+      "text": "Practical data analysis and forensic technology tasks in Excel and Tableau, presented for a business audience.",
+      "positions": [],
+      "highlights": []
+    },
+    {
+      "group": "simulation",
+      "dates": "Jul 2026",
+      "role": "Data Visualisation: Empowering Business with Effective Insights",
+      "org": "Tata · Forage",
+      "org_detail": "",
+      "meta": "",
+      "text": "Analysed business data, spotted trends and presented them in a stakeholder-friendly way.",
+      "positions": [],
+      "highlights": []
+    }
+  ],
+  "education_label": "where I studied",
+  "education_heading": "Education & Certifications",
+  "education": [
+    {
+      "dates": "2022 – 2023",
+      "title": "Class XII (Commerce)",
+      "detail": "Glenhill School, CBSE · 91%",
+      "text": "",
+      "upcoming": false
+    },
+    {
+      "dates": "2023 – 2026",
+      "title": "BBA (International Business)",
+      "detail": "University of Lucknow · CGPA 7.65",
+      "text": "Coursework: International Business Logistics, Supply Chain Management, Financial & Managerial Accounting, International Marketing, Operations Management, Business Law",
+      "upcoming": false
+    },
+    {
+      "dates": "next",
+      "title": "My first full-time role",
+      "detail": "KYC, research or analyst",
+      "text": "",
+      "upcoming": true
+    }
+  ],
+  "certificates_title": "certificates collected along the way",
+  "certificates": [
+    {
+      "name": "Foundation in AML and KYC",
+      "issuer": "KYC Lookup"
+    },
+    {
+      "name": "Business Analysis & Process Management",
+      "issuer": "Coursera"
+    },
+    {
+      "name": "Forward Learning Program",
+      "issuer": "McKinsey & Company"
+    },
+    {
+      "name": "Artificial Intelligence Fundamentals",
+      "issuer": "IBM SkillsBuild"
+    }
+  ]
+}
