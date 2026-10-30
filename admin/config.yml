@@ -1,3 +1,4 @@
+publish_mode: editorial_workflow
 # Settings for the editor at /admin. You don't need to change this file.
 backend:
   name: github
