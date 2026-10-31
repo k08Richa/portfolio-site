@@ -4,30 +4,7 @@
   "intro": "Each project starts with a plain-language story. Open it for how it began, what was hard, what I found, and the technical detail.",
   "projects": [
     {
-      "title": "Why does my bank keep asking? KYC and AML in plain language",
-      "label": "Banking & Compliance",
-      "subtitle": "A practical introduction to KYC, CDD and AML",
-      "filters": [
-        "compliance",
-        "business"
-      ],
-      "cover": "/images/kyc-cover.jpg",
-      "summary": "Everyday banking questions, answered in simple words.",
-      "card_tags": [
-        "KYC",
-        "AML",
-        "CDD",
-        "Compliance"
-      ],
       "case_label": "Banking & Compliance",
-      "text_heavy": true,
-      "under_the_hood": "- Terms: KYC, CDD, AML, PMLA 2002, RBI KYC Master Direction, FIU-IND, CKYC.\n- Certificate: Foundation in AML and KYC (KYC Lookup).\n- Image credits: Zulfugar Karimov and RDNE Stock project (Pexels); Yugu Design and Photography Mahi (Unsplash).",
-      "tools": [
-        "KYC",
-        "AML",
-        "CDD",
-        "Compliance"
-      ],
       "blocks": [
         {
           "type": "text",
@@ -111,6 +88,20 @@
           "body": "Rules and limits change and differ between institutions. I hold a foundation certificate and I am not a compliance officer, so this explains the ideas and is not advice."
         }
       ],
+      "summary": "Everyday banking questions, answered in simple words.",
+      "card_tags": [
+        "KYC",
+        "AML",
+        "CDD",
+        "Compliance"
+      ],
+      "link_label": "View on GitHub",
+      "under_the_hood": "- Terms: KYC, CDD, AML, PMLA 2002, RBI KYC Master Direction, FIU-IND, CKYC.\n- Certificate: Foundation in AML and KYC (KYC Lookup).\n- Image credits: Zulfugar Karimov and RDNE Stock project (Pexels); Yugu Design and Photography Mahi (Unsplash).",
+      "label": "Banking & Compliance",
+      "text_heavy": true,
+      "cover": "/images/kyc-cover.jpg",
+      "subtitle": "A practical introduction to KYC, CDD and AML",
+      "title": "Why does my bank keep asking? KYC and AML in plain language",
       "images": [
         {
           "image": "/images/kyc-1.jpg",
@@ -134,32 +125,19 @@
         }
       ],
       "link": "",
-      "link_label": "View on GitHub"
+      "tools": [
+        "KYC",
+        "AML",
+        "CDD",
+        "Compliance"
+      ],
+      "filters": [
+        "compliance",
+        "business"
+      ]
     },
     {
-      "title": "Where does a bank's money actually move?",
-      "label": "Banking Analytics",
-      "subtitle": "Excel, SQL and Power BI on 2,000 bank transactions",
-      "filters": [
-        "analytics"
-      ],
-      "cover": "/images/bank-cover.jpg",
-      "summary": "Deposits drove 53% of all transaction value across 2,000 transactions.",
-      "card_tags": [
-        "Excel",
-        "SQL",
-        "Power BI"
-      ],
       "case_label": "Banking Analytics",
-      "text_heavy": false,
-      "under_the_hood": "- Excel for exploring and validating the data.\n- 7 SQL queries run in SQLite (SELECT, GROUP BY, COUNT, AVG, SUM) for customer segments, spend patterns, loan risk and monthly trends.\n- Power BI dashboard with 8 charts and 2 slicers.",
-      "tools": [
-        "Excel",
-        "SQL",
-        "Power BI"
-      ],
-      "link": "https://github.com/k08Richa/Banking-Customer-Analytics-Dashboard",
-      "link_label": "View on GitHub",
       "blocks": [
         {
           "type": "text",
@@ -215,6 +193,19 @@
           "body": "This is one dataset of 2,000 transactions, so the patterns may not hold for a much larger bank."
         }
       ],
+      "summary": "Deposits drove 53% of all transaction value across 2,000 transactions.",
+      "card_tags": [
+        "Excel",
+        "SQL",
+        "Power BI"
+      ],
+      "link_label": "View on GitHub",
+      "under_the_hood": "- Excel for exploring and validating the data.\n- 7 SQL queries run in SQLite (SELECT, GROUP BY, COUNT, AVG, SUM) for customer segments, spend patterns, loan risk and monthly trends.\n- Power BI dashboard with 8 charts and 2 slicers.",
+      "label": "Banking Analytics",
+      "text_heavy": false,
+      "cover": "/images/bank-cover.jpg",
+      "subtitle": "Excel, SQL and Power BI on 2,000 bank transactions",
+      "title": "Where does a bank's money actually move?",
       "images": [
         {
           "image": "/images/bank-1.png",
@@ -231,38 +222,24 @@
           "alt": "Transactions sheet in Excel",
           "caption": "The transactions sheet"
         }
+      ],
+      "link": "https://github.com/k08Richa/Banking-Customer-Analytics-Dashboard",
+      "tools": [
+        "Excel",
+        "SQL",
+        "Power BI"
+      ],
+      "filters": [
+        "analytics"
       ]
     },
     {
-      "title": "Can a small gift shop grow on Instagram and YouTube?",
-      "label": "Social Media · Part-time work",
-      "subtitle": "Filming, editing and posting for OtakusOutlet since 2024",
-      "filters": [
-        "content",
-        "business"
-      ],
-      "cover": "/images/shop-cover.jpg",
-      "summary": "157 posts and reels so far. Our best reel reached 12K views; two YouTube Shorts reached about 10K and 11K.",
-      "card_tags": [
-        "Edits",
-        "Canva",
-        "Instagram Insights",
-        "YouTube Studio"
-      ],
       "case_label": "Social media · OtakusOutlet",
-      "text_heavy": false,
-      "under_the_hood": "- 157 posts and reels so far across the shop's channels.\n- Tools: Edits, CapCut (earlier), Canva, Instagram Insights, YouTube Studio, Flipkart seller listings.",
-      "tools": [
-        "Video editing",
-        "Captions",
-        "Analytics",
-        "Customer replies"
-      ],
       "blocks": [
         {
           "type": "text",
           "heading": "How this started",
-          "body": "My elder sister opened OtakusOutlet, a customised gift and print shop in Lucknow, in 2024: mugs, photo frames, cushion covers, T-shirts, keychains, fridge magnets and bottles, printed to order. I started by helping with posting and captions. Over time I took over the shop's Instagram and YouTube: filming, editing, writing, posting and replying to people."
+          "body": "My elder sister opened OtakusOutlet, a gift shop in Lucknow in 2024 featuring ready-made as well as customised gifts such as mugs, photo frames, cushion covers, T-shirts, keychains, fridge magnets and many more. I started by helping with posting and captions. Over time I took over the shop's Instagram and YouTube: filming, editing, writing, posting and replying to people."
         },
         {
           "type": "text",
@@ -274,13 +251,13 @@
           "heading": "Side by side",
           "left": {
             "label": "Instagram",
-            "big": "12K",
-            "caption": "views on our best reel; most reels get 500 to 2K"
+            "big": "12.5K",
+            "caption": "views on our best reel (10.4K accounts reached); most reels get 500 to 2K."
           },
           "right": {
             "label": "YouTube Shorts",
-            "big": "11K",
-            "caption": "views on our best Short (another reached about 10K); most cross 1K"
+            "big": "11.9K",
+            "caption": "views on our most-viewed short, most cross 1K"
           }
         },
         {
@@ -303,33 +280,66 @@
           "body": "Why one reel takes off and a similar one doesn't. I can see patterns in the numbers, but not proof. That's what I'm trying to understand better, including on Pinterest next."
         }
       ],
-      "images": [],
+      "summary": "150+ posts and reels so far. Our best reel reached 12K views; two YouTube Shorts reached about 10K and 11K.",
+      "card_tags": [
+        "Edits",
+        "Canva",
+        "Instagram Insights",
+        "YouTube Studio"
+      ],
+      "link_label": "View on GitHub",
+      "under_the_hood": "- 157 posts and reels so far across the shop's channels.\n- Tools: Edits, CapCut (earlier), Canva, Instagram Insights, YouTube Studio, Flipkart seller listings.",
+      "label": "Social Media · Part-time work",
+      "text_heavy": false,
+      "cover": "/images/shop-cover.jpg",
+      "subtitle": "Filming, editing and posting for OtakusOutlet since 2024",
+      "title": "Can a small gift shop grow on Instagram and YouTube?",
+      "images": [
+        {
+          "size": "small",
+          "image": "/images/instagram-profile-screenshot.jpg",
+          "caption": "The shop’s Instagram: 158 posts and 1000+ orders shipped"
+        },
+        {
+          "size": "half",
+          "image": "/images/reel-insights-screenshot-12-530-views-.jpg",
+          "caption": "Best Instagram reel: 12.5K views"
+        },
+        {
+          "size": "half",
+          "image": "/images/youtube-short-screenshot-11-947-views-.jpg",
+          "caption": "Most-viewed YouTube Short: 11.9K views"
+        },
+        {
+          "size": "half",
+          "image": "/images/mom-keychain-on-the-hoodie.jpg",
+          "caption": "A 3D-printed #MOM keychain"
+        },
+        {
+          "size": "half",
+          "image": "/images/bear-keychains.jpg",
+          "caption": "Ready-made gifts: couple keychains"
+        },
+        {
+          "size": "small",
+          "image": "/images/cushion-covers.jpg",
+          "caption": "Cushion covers, ready for printing"
+        }
+      ],
       "link": "",
-      "link_label": "View on GitHub"
+      "tools": [
+        "Video editing",
+        "Captions",
+        "Analytics",
+        "Customer replies"
+      ],
+      "filters": [
+        "content",
+        "business"
+      ]
     },
     {
-      "title": "Do brands that listen keep their customers?",
-      "label": "Research Report · Academic",
-      "subtitle": "AI sentiment analysis, engagement and brand loyalty",
-      "filters": [
-        "business"
-      ],
-      "cover": "/images/research-cover.jpg",
-      "summary": "A supervised report on whether AI that reads customer feedback helps build loyalty.",
-      "card_tags": [
-        "Secondary research",
-        "Survey",
-        "Excel",
-        "Report Writing"
-      ],
       "case_label": "Research report",
-      "text_heavy": false,
-      "under_the_hood": "- Secondary research plus a Google Forms survey with Likert-scale questions.\n- Responses analysed with Excel and AI tools; basic percentages only, no statistical tests.\n- What I learned: a report is only as strong as its sources, and small samples need careful wording.",
-      "tools": [
-        "Secondary research",
-        "Google Forms",
-        "Excel"
-      ],
       "blocks": [
         {
           "type": "text",
@@ -385,6 +395,20 @@
           "text": "small sample, mostly people I know: read with care"
         }
       ],
+      "summary": "A supervised report on whether AI that reads customer feedback helps build loyalty.",
+      "card_tags": [
+        "Secondary research",
+        "Survey",
+        "Excel",
+        "Report Writing"
+      ],
+      "link_label": "View on GitHub",
+      "under_the_hood": "- Secondary research plus a Google Forms survey with Likert-scale questions.\n- Responses analysed with Excel and AI tools; basic percentages only, no statistical tests.\n- What I learned: a report is only as strong as its sources, and small samples need careful wording.",
+      "label": "Research Report · Academic",
+      "text_heavy": false,
+      "cover": "/images/research-cover.jpg",
+      "subtitle": "AI sentiment analysis, engagement and brand loyalty",
+      "title": "Do brands that listen keep their customers?",
       "images": [
         {
           "image": "/images/research-1.jpg",
@@ -403,32 +427,17 @@
         }
       ],
       "link": "",
-      "link_label": "View on GitHub"
+      "tools": [
+        "Secondary research",
+        "Google Forms",
+        "Excel"
+      ],
+      "filters": [
+        "business"
+      ]
     },
     {
-      "title": "Which farming season pays best, and which wastes water?",
-      "label": "Data Analytics · Internship project",
-      "subtitle": "Yield, profit and water use across Kharif, Rabi and Zaid",
-      "filters": [
-        "analytics"
-      ],
-      "cover": "/images/farm-cover.jpg",
-      "summary": "Kharif was the most productive and profitable season across 4,000 farm records.",
-      "card_tags": [
-        "Python",
-        "Excel",
-        "Data Analysis"
-      ],
       "case_label": "Data analytics",
-      "text_heavy": false,
-      "under_the_hood": "- Python (pandas, numpy, matplotlib, seaborn) in Google Colab; Excel for first exploration.\n- 4,000 records, 28 variables; yield, profit, water-efficiency and disease-risk comparisons by season, crop and irrigation method.\n- In the same internship I also completed a guided analysis of 299 CarDekho used-car listings, comparing resale value by fuel type, gearbox and age.",
-      "tools": [
-        "Python",
-        "pandas",
-        "matplotlib"
-      ],
-      "link": "https://github.com/k08Richa/Seasonal-Agriculture-Analysis",
-      "link_label": "View on GitHub",
       "blocks": [
         {
           "type": "text",
@@ -479,6 +488,19 @@
           "text": "averages, not proof!"
         }
       ],
+      "summary": "Kharif was the most productive and profitable season across 4,000 farm records.",
+      "card_tags": [
+        "Python",
+        "Excel",
+        "Data Analysis"
+      ],
+      "link_label": "View on GitHub",
+      "under_the_hood": "- Python (pandas, numpy, matplotlib, seaborn) in Google Colab; Excel for first exploration.\n- 4,000 records, 28 variables; yield, profit, water-efficiency and disease-risk comparisons by season, crop and irrigation method.\n- In the same internship I also completed a guided analysis of 299 CarDekho used-car listings, comparing resale value by fuel type, gearbox and age.",
+      "label": "Data Analytics · Internship project",
+      "text_heavy": false,
+      "cover": "/images/farm-cover.jpg",
+      "subtitle": "Yield, profit and water use across Kharif, Rabi and Zaid",
+      "title": "Which farming season pays best, and which wastes water?",
       "images": [
         {
           "image": "/images/farm-1.png",
@@ -500,6 +522,15 @@
           "alt": "Seasonal agriculture data in Excel",
           "caption": "A look at the raw farm data"
         }
+      ],
+      "link": "https://github.com/k08Richa/Seasonal-Agriculture-Analysis",
+      "tools": [
+        "Python",
+        "pandas",
+        "matplotlib"
+      ],
+      "filters": [
+        "analytics"
       ]
     }
   ]
