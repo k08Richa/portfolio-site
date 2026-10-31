@@ -1,14 +1,6 @@
 {
   "hero": {
-    "greeting": "Hi, I'm",
-    "name": "Richa Chaurasia",
-    "line_start": "I",
-    "crossed_word": "guess,",
-    "correct_word": "check,",
     "line_middle": "analyse and explain information:",
-    "line_highlight": "KYC, data and research.",
-    "resume_url": "https://drive.google.com/file/d/1NOfQBlbXNLDIOWHW5GA_HHDG7VwBrAfu/view?usp=sharing",
-    "note_title": "right now",
     "note_rows": [
       {
         "label": "Looking for",
@@ -23,6 +15,13 @@
         "text": "adding Pinterest to the shop's channels"
       }
     ],
+    "line_highlight": "KYC, data and research.",
+    "crossed_word": "guess,",
+    "name": "Richa Chaurasia",
+    "note_title": "right now",
+    "line_start": "I",
+    "greeting": "Hi, I'm",
+    "resume_url": "https://drive.google.com/file/d/1NOfQBlbXNLDIOWHW5GA_HHDG7VwBrAfu/view?usp=sharing",
     "stats": [
       {
         "number": "6,500+",
@@ -33,14 +32,15 @@
         "label": "years of part-time work alongside my degree"
       },
       {
-        "number": "157",
+        "number": "150+",
         "label": "posts & reels made for a small business"
       },
       {
         "number": "4",
         "label": "internships across data, AI, writing and email"
       }
-    ]
+    ],
+    "correct_word": "check,"
   },
   "about": {
     "label": "a little about me",
