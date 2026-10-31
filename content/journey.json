@@ -3,13 +3,9 @@
   "heading": "Where I have been",
   "entries": [
     {
-      "group": "work",
-      "dates": "",
-      "role": "",
       "org": "OtakusOutlet",
-      "org_detail": "customised gift & print shop, Lucknow",
       "meta": "Part-time · Hybrid · Family business",
-      "text": "",
+      "dates": "",
       "positions": [
         {
           "role": "Social Media & Content Associate",
@@ -24,77 +20,81 @@
           "current": false
         }
       ],
+      "org_detail": "gift shop, customised and ready-made gifts, Lucknow",
+      "text": "",
+      "role": "",
       "highlights": [
         "157 posts & reels",
         "12K best reel",
         "~10K & 11K on two Shorts"
-      ]
+      ],
+      "group": "work"
     },
     {
-      "group": "work",
-      "dates": "Sep – Nov 2025",
-      "role": "Email Marketing Intern",
       "org": "GEMA Education Technology",
-      "org_detail": "",
       "meta": "",
+      "dates": "Sep – Nov 2025",
+      "positions": [],
+      "org_detail": "",
       "text": "Kept recipient records organised and sent about 50 targeted emails a day with YAMM and Mail Merge, meeting daily targets for two months.",
-      "positions": [],
-      "highlights": []
+      "role": "Email Marketing Intern",
+      "highlights": [],
+      "group": "work"
     },
     {
-      "group": "work",
-      "dates": "Aug – Sep 2025",
-      "role": "Content Writer",
       "org": "InAmigos Foundation",
-      "org_detail": "",
       "meta": "",
+      "dates": "Aug – Sep 2025",
+      "positions": [],
+      "org_detail": "",
       "text": "Researched and wrote articles, blog posts and social media content on women empowerment, CSR and social development for Project Udaan.",
-      "positions": [],
-      "highlights": []
+      "role": "Content Writer",
+      "highlights": [],
+      "group": "work"
     },
     {
-      "group": "training",
-      "dates": "Aug – Sep 2026",
-      "role": "Data Analytics Intern",
       "org": "VOIS for Tech Program · Edunet Foundation",
-      "org_detail": "",
       "meta": "",
+      "dates": "Aug – Sep 2026",
+      "positions": [],
+      "org_detail": "",
       "text": "Guided analysis of real-world datasets in Python. My major project compared yield, profit and water efficiency across 4,000 farm records.",
-      "positions": [],
-      "highlights": []
+      "role": "Data Analytics Intern",
+      "highlights": [],
+      "group": "training"
     },
     {
-      "group": "training",
-      "dates": "Jun – Jul 2025",
-      "role": "AI & Machine Learning Intern",
       "org": "Edunet Foundation · IBM SkillsBuild & AICTE",
-      "org_detail": "",
       "meta": "",
+      "dates": "Jun – Jul 2025",
+      "positions": [],
+      "org_detail": "",
       "text": "Checked a dataset of around 500 records for errors and inconsistencies, then built an Employee Salary Prediction model in Python. Earned the IBM AI Fundamentals badge.",
-      "positions": [],
-      "highlights": []
+      "role": "AI & Machine Learning Intern",
+      "highlights": [],
+      "group": "training"
     },
     {
-      "group": "simulation",
-      "dates": "Aug 2026",
-      "role": "Data Analytics Job Simulation",
       "org": "Deloitte · Forage",
-      "org_detail": "",
       "meta": "",
-      "text": "Practical data analysis and forensic technology tasks in Excel and Tableau, presented for a business audience.",
+      "dates": "Aug 2026",
       "positions": [],
-      "highlights": []
+      "org_detail": "",
+      "text": "Practical data analysis and forensic technology tasks in Excel and Tableau, presented for a business audience.",
+      "role": "Data Analytics Job Simulation",
+      "highlights": [],
+      "group": "simulation"
     },
     {
-      "group": "simulation",
-      "dates": "Jul 2026",
-      "role": "Data Visualisation: Empowering Business with Effective Insights",
       "org": "Tata · Forage",
-      "org_detail": "",
       "meta": "",
-      "text": "Analysed business data, spotted trends and presented them in a stakeholder-friendly way.",
+      "dates": "Jul 2026",
       "positions": [],
-      "highlights": []
+      "org_detail": "",
+      "text": "Analysed business data, spotted trends and presented them in a stakeholder-friendly way.",
+      "role": "Data Visualisation: Empowering Business with Effective Insights",
+      "highlights": [],
+      "group": "simulation"
     }
   ],
   "education_label": "where I studied",
