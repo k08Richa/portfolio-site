@@ -1,4 +1,3 @@
-publish_mode: editorial_workflow
 # Settings for the editor at /admin. You don't need to change this file.
 backend:
   name: github
@@ -6,6 +5,9 @@ backend:
   branch: main
   commit_messages:
     update: "Update {{collection}} from the editor"
+
+# Drafts first: nothing goes live until it is moved to "Ready" and published.
+publish_mode: editorial_workflow
 
 site_url: https://richa-chaurasia.netlify.app
 display_url: https://richa-chaurasia.netlify.app
@@ -210,6 +212,16 @@ collections:
                   - {label: "Picture", name: image, widget: image, choose_url: false}
                   - {label: "Caption", name: caption, widget: string, required: false}
                   - {label: "Description for screen readers", name: alt, widget: string, required: false, hint: "What the picture shows, in a few words"}
+                  - label: "Size"
+                    name: size
+                    widget: select
+                    required: false
+                    default: full
+                    hint: "Two 'Half' pictures in a row sit side by side"
+                    options:
+                      - {label: "Full width", value: full}
+                      - {label: "Smaller", value: small}
+                      - {label: "Half (side by side)", value: half}
               - {label: "Long text, narrow pictures", name: text_heavy, widget: boolean, default: false, hint: "Turn on for long write-ups like the KYC one"}
 
   # ------------------------------------------------------------------
