@@ -858,3 +858,35 @@ body::after{content:'';position:fixed;inset:0;pointer-events:none;z-index:900;op
 #about::before{content:'';position:absolute;top:0;left:50%;width:100vw;height:56px;transform:translateX(-50%);pointer-events:none;z-index:0;background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1440 56' preserveAspectRatio='none'%3E%3Cpath d='M0 0H1440V18C1210 50 990 56 730 36S250 4 0 26Z' fill='%23fbf8f3'/%3E%3C/svg%3E") center/100% 100% no-repeat}
 #spot::before{background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1440 56' preserveAspectRatio='none'%3E%3Cpath d='M0 0H1440V18C1210 50 990 56 730 36S250 4 0 26Z' fill='%23f4efe5'/%3E%3C/svg%3E") center/100% 100% no-repeat}
 .mnote{white-space:pre-wrap}
+
+/* ===== colour behind flipped cards and inside case studies ===== */
+.card,.cs{--tint:#e7eef6;--tint2:#f4f7fb;--ink-c:#57779a}
+[data-cat^="compliance"]{--tint:#e2ebe0;--tint2:#f3f7f1;--ink-c:#5f8565}
+[data-cat^="analytics"]{--tint:#dfe8f3;--tint2:#f2f6fb;--ink-c:#57779a}
+[data-cat^="business"]{--tint:#f3e3de;--tint2:#fbf3f0;--ink-c:#b0685f}
+[data-cat^="content"]{--tint:#f5ead0;--tint2:#fcf7ea;--ink-c:#9a7b2f}
+[data-cat^="writing"]{--tint:#e8e3f3;--tint2:#f6f3fb;--ink-c:#7a6aa6}
+/* back of the card: soft pastel by category, with a small round photo of the project */
+.back{background:linear-gradient(155deg,var(--tint2) 0%,var(--tint) 100%) !important;border-left:4px solid var(--ink-c) !important;overflow:hidden}
+.back::after{content:'';position:absolute;right:-60px;bottom:-60px;width:200px;height:200px;border-radius:50%;background:radial-gradient(circle,rgba(255,255,255,.55),transparent 70%)}
+.back>*{position:relative;z-index:1}
+.back .tag{background:rgba(255,255,255,.8);border-color:rgba(35,48,59,.12)}
+/* case study: pale tint of the same colour, and the cover photo as a banner */
+.cs{background:linear-gradient(180deg,var(--tint2) 0%,#fbf8f3 520px) !important}
+.cs .work-category{color:var(--ink-c)}
+.cs h4{color:var(--ink-c) !important}
+.cs .tech{border-left-color:var(--ink-c);background:rgba(255,255,255,.75)}
+.cs .vs>div{background:rgba(255,255,255,.8)}
+
+
+
+/* pictures in case studies: shown whole, never cropped or blown up */
+.cs-side figure{background:rgba(255,255,255,.7);border:1px solid rgba(35,48,59,.1);border-radius:12px;padding:12px}
+.cs .cs-side figure img{width:auto;max-width:100%;max-height:480px;height:auto;margin:0 auto;object-fit:contain;border:0;border-radius:8px}
+.cs-side figcaption{text-align:center}
+.cs .cs-side{grid-template-columns:repeat(2,minmax(0,1fr));align-items:start}
+.cs .cs-side figure{grid-column:1/-1}
+.cs .cs-side figure.half{grid-column:auto}
+.cs .cs-side figure.half img{max-height:420px}
+.cs .cs-side figure.small img{max-width:72%}
+@media (max-width:560px){.cs .cs-side figure.half{grid-column:1/-1}.cs .cs-side figure.small img{max-width:100%}}

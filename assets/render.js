@@ -52,14 +52,15 @@ function works(w){
   var cards='',modals='';
   (w.projects||[]).forEach(function(p){
     var id='cs-'+slug(p.title); while(ids[id]) id+='-x'; ids[id]=1;
-    cards+='<article class="card" data-cat="'+esc((p.filters||[]).join(' '))+'"><div class="inner"><div class="face front" style="--img:url(\''+esc(p.cover||'')+'\')"><p class="work-category">'+esc(p.label)+'</p><h3>'+esc(p.title)+'</h3>'+(p.subtitle?'<p class="project-subtitle">'+esc(p.subtitle)+'</p>':'')+'<span class="hint"><span class="h-hover">Hover to flip</span><span class="h-tap">Tap to flip</span></span></div>'+
+    var bg=p.cover?' style="--img:url(\''+esc(p.cover)+'\')"':'';
+    cards+='<article class="card" data-cat="'+esc((p.filters||[]).join(' '))+'"'+bg+'><div class="inner"><div class="face front"><p class="work-category">'+esc(p.label)+'</p><h3>'+esc(p.title)+'</h3>'+(p.subtitle?'<p class="project-subtitle">'+esc(p.subtitle)+'</p>':'')+'<span class="hint"><span class="h-hover">Hover to flip</span><span class="h-tap">Tap to flip</span></span></div>'+
       '<div class="face back"><p>'+esc(p.summary)+'</p><div class="work-tools">'+tags(p.card_tags)+'</div><button class="explore" data-open="'+id+'">Explore</button></div></div></article>';
     var text=(p.blocks||[]).map(block).join('');
     if(p.under_the_hood||(p.tools||[]).length) text+='<div class="tech"><h4>Under the hood</h4>'+md(p.under_the_hood)+'<div class="work-tools">'+tags(p.tools)+'</div></div>';
     if(p.link) text+='<a class="btn-ghost" href="'+esc(p.link)+'" target="_blank" rel="noopener">'+esc(p.link_label||'View project')+'</a>';
     var imgs=(p.images||[]).filter(function(x){return x&&x.image});
-    var inner=imgs.length?'<div class="cs-grid'+(p.text_heavy?' kyc':'')+'"><div class="cs-text">'+text+'</div><aside class="cs-side">'+imgs.map(function(x){return '<figure><img src="'+esc(x.image)+'" alt="'+esc(x.alt)+'" loading="lazy" onerror="this.parentElement.hidden=true">'+(x.caption?'<figcaption>'+esc(x.caption)+'</figcaption>':'')+'</figure>'}).join('')+'</aside></div>':text;
-    modals+='<div class="cs" id="'+id+'" role="dialog" aria-modal="true" aria-label="'+esc(p.title)+'" hidden><div class="cs-in'+(imgs.length?' wide':'')+'"><button class="cs-x" aria-label="Close">&times;</button><p class="work-category">'+esc(p.case_label||p.label)+'</p><h2>'+esc(p.title)+'</h2>'+inner+'</div></div>';
+    var inner=imgs.length?'<div class="cs-grid'+(p.text_heavy?' kyc':'')+'"><div class="cs-text">'+text+'</div><aside class="cs-side">'+imgs.map(function(x){return '<figure'+(x.size==='half'?' class="half"':x.size==='small'?' class="small"':'')+'><img src="'+esc(x.image)+'" alt="'+esc(x.alt)+'" loading="lazy" onerror="this.parentElement.hidden=true">'+(x.caption?'<figcaption>'+esc(x.caption)+'</figcaption>':'')+'</figure>'}).join('')+'</aside></div>':text;
+    modals+='<div class="cs" id="'+id+'"'+bg+' data-cat="'+esc((p.filters||[]).join(' '))+'" role="dialog" aria-modal="true" aria-label="'+esc(p.title)+'" hidden><div class="cs-in'+(imgs.length?' wide':'')+'"><button class="cs-x" aria-label="Close">&times;</button><p class="work-category">'+esc(p.case_label||p.label)+'</p><h2>'+esc(p.title)+'</h2>'+inner+'</div></div>';
   });
   var F=[['all','All'],['analytics','Analytics'],['business','Business &amp; Research'],['compliance','Compliance'],['content','Content &amp; Social'],['writing','Writing']];
   $('works').innerHTML='<p class="section-marker">'+esc(w.label)+'</p><h2>'+esc(w.heading)+'</h2><p class="work-desc">'+esc(w.intro)+'</p>'+
