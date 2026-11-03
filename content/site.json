@@ -1,6 +1,6 @@
 {
   "hero": {
-    "line_middle": "analyse and explain information:",
+    "line_middle": "research, organise and explain information.",
     "note_rows": [
       {
         "label": "Working on",
@@ -15,7 +15,7 @@
         "text": "expanding the shop to Pinterest"
       }
     ],
-    "line_highlight": "data, research & communication",
+    "line_highlight": "",
     "crossed_word": "guess,",
     "name": "Richa Chaurasia",
     "note_title": "right now",
@@ -40,7 +40,7 @@
         "label": "internships across data, AI, writing and email"
       }
     ],
-    "correct_word": "check,"
+    "correct_word": "find,"
   },
   "about": {
     "label": "a little about me",
