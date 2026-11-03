@@ -266,18 +266,18 @@
         },
         {
           "type": "text",
-          "heading": "What made it hard",
-          "body": "Posting consistently. I fit this around job applications and learning, so I haven't managed to post every day. The algorithm is also uneven: some accounts get reach easily and ours isn't one of them, so I keep trying different formats and timings. Something that works on YouTube doesn't always work on Instagram."
+          "heading": "What required the most adjustment",
+          "body": "Consistency is harder on a small account. The algorithm tends to favour accounts that already have reach, so building from scratch means a lot of posts that don’t perform before finding ones that do. On top of that, the two platforms don’t behave the same way the timing, caption style and even the first frame matter differently on each, so cross-posting the same content without adapting it rarely works. The only thing that worked was staying in and adjusting, not assuming what worked once would work again."
         },
         {
           "type": "text",
           "heading": "What I found",
-          "body": "- Our YouTube Shorts usually reach more people than our Instagram reels: most Shorts cross 1K views, while most reels get 500 to 2K.\n- What works on one platform isn't guaranteed to work on the other, so each one needs its own trial and error.\n- Posting regularly matters, and it's the part I'm still working on."
+          "body": "* Our YouTube Shorts usually reach more people than our Instagram reels, most Shorts cross 1K views while most reels get 500 to 2K.\n* What works on one platform isn't guaranteed to work on the other, so each one needs its own trial and error.\n* Bright text hooks tend to perform better than concept-driven or POV-style ones."
         },
         {
           "type": "text",
-          "heading": "What I'm still unsure about",
-          "body": "Why one reel takes off and a similar one doesn't. I can see patterns in the numbers, but not proof. That's what I'm trying to understand better, including on Pinterest next."
+          "heading": "What I'm still testing",
+          "body": "Why one reel outperforms a nearly identical one. I can see patterns in the numbers, but not proof. That’s what I’m still testing including whether a visual-first platform like Pinterest behaves differently for the same products."
         }
       ],
       "summary": "150+ posts and reels so far. Our best reel reached 12K views; two YouTube Shorts reached about 10K and 11K.",
@@ -288,18 +288,13 @@
         "YouTube Studio"
       ],
       "link_label": "View on GitHub",
-      "under_the_hood": "- 157 posts and reels so far across the shop's channels.\n- Tools: Edits, CapCut (earlier), Canva, Instagram Insights, YouTube Studio, Flipkart seller listings.",
+      "under_the_hood": "* 150+ posts and reels so far across the shop's channels.\n* Tools: Edits, CapCut (earlier), Canva, Instagram Insights, YouTube Studio, Flipkart seller listings.",
       "label": "Social Media · Part-time work",
       "text_heavy": false,
       "cover": "/images/shop-cover.jpg",
       "subtitle": "Filming, editing and posting for OtakusOutlet since 2024",
       "title": "Can a small gift shop grow on Instagram and YouTube?",
       "images": [
-        {
-          "size": "small",
-          "image": "/images/instagram-profile-screenshot.jpg",
-          "caption": "The shop’s Instagram: 158 posts and 1000+ orders shipped"
-        },
         {
           "size": "half",
           "image": "/images/reel-insights-screenshot-12-530-views-.jpg",
