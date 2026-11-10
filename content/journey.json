@@ -9,13 +9,13 @@
       "positions": [
         {
           "role": "Social Media & Content Associate",
-          "dates": "Jan 2025 – Present",
+          "dates": "Jan 2026 - Present",
           "text": "Film, edit and post reels and Shorts, write captions and titles, research keywords, reply to customers and track results in Instagram Insights and YouTube Studio.",
           "current": true
         },
         {
           "role": "Content & Posting Assistant",
-          "dates": "Jan 2024 – Dec 2024",
+          "dates": "Mar 2024 - June 2025",
           "text": "Posted content, wrote captions and answered customer queries on Instagram and YouTube.",
           "current": false
         }
@@ -33,7 +33,7 @@
     {
       "org": "GEMA Education Technology",
       "meta": "",
-      "dates": "Sep – Nov 2025",
+      "dates": "Sep - Nov 2025",
       "positions": [],
       "org_detail": "",
       "text": "Kept recipient records organised and sent about 50 targeted emails a day with YAMM and Mail Merge, meeting daily targets for two months.",
@@ -44,7 +44,7 @@
     {
       "org": "InAmigos Foundation",
       "meta": "",
-      "dates": "Aug – Sep 2025",
+      "dates": "Aug - Sep 2025",
       "positions": [],
       "org_detail": "",
       "text": "Researched and wrote articles, blog posts and social media content on women empowerment, CSR and social development for Project Udaan.",
@@ -55,7 +55,7 @@
     {
       "org": "VOIS for Tech Program · Edunet Foundation",
       "meta": "",
-      "dates": "Aug – Sep 2026",
+      "dates": "Aug - Sep 2026",
       "positions": [],
       "org_detail": "",
       "text": "Guided analysis of real-world datasets in Python. My major project compared yield, profit and water efficiency across 4,000 farm records.",
@@ -66,7 +66,7 @@
     {
       "org": "Edunet Foundation · IBM SkillsBuild & AICTE",
       "meta": "",
-      "dates": "Jun – Jul 2025",
+      "dates": "Jun - Jul 2025",
       "positions": [],
       "org_detail": "",
       "text": "Checked a dataset of around 500 records for errors and inconsistencies, then built an Employee Salary Prediction model in Python. Earned the IBM AI Fundamentals badge.",
